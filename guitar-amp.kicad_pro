@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 2.5,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,8 +48,19 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|137190001|129000001|6ef525a3-df1c-4245-b41c-4951e4011fc6|814ccdc7-8e7a-41fb-bc96-34a72ca50566",
+        "courtyards_overlap|163550001|116950001|3e512ff0-2763-4d65-9830-92944d6bf1fd|e1c4edd8-448a-4bb9-b5d6-7e237e4d65c6",
+        "courtyards_overlap|179149999|118647003|8755875f-c427-43f9-8c9a-d2fbbe9b6ca8|e1c4edd8-448a-4bb9-b5d6-7e237e4d65c6",
+        "courtyards_overlap|207038827|106049999|7381ff62-0907-4c34-acba-fa98c403c3ec|b62ffba0-390a-4680-8c85-de604b692208"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,8 +123,15 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -340,7 +358,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -350,9 +368,60 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.8,
+        "via_diameter": 3.0,
+        "via_drill": 0.81,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 1.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AC",
+        "nets": [
+          "/AC_L",
+          "/AC_N"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "via_diameter": 3.0,
+        "via_drill": 0.81,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 1.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HIGH_DC",
+        "nets": [
+          "/HighDC_143VDC",
+          "/HighDC_227VDC",
+          "/HighDC_241VDC",
+          "/HighDC_GateValve3",
+          "/HighDC_OT",
+          "/HighDC_Post",
+          "/HighDC_Prefilter",
+          "/HighDC_Trafo1",
+          "/HighDC_Trafo2",
+          "/HighDC_V1B_Anode",
+          "/HighDC_V2A_Anode"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "via_diameter": 3.0,
+        "via_drill": 0.81,
         "wire_width": 6.0
       }
     ],
