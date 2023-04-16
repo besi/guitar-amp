@@ -6,8 +6,8 @@
 
   (title_block
     (title "Guitar Amp based on High Octane")
-    (date "2023-04-11")
-    (rev "v0.1")
+    (date "2023-04-16")
+    (rev "v1.0")
     (company "Besmer Labs")
   )
 
