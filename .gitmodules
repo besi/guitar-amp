@@ -1,0 +1,3 @@
+[submodule "preamp/lib/rcj-22"]
+	path = preamp/lib/rcj-22
+	url = https://github.com/besi/kicad-rcj-22
