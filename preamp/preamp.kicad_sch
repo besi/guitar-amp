@@ -6,8 +6,8 @@
 
   (title_block
     (title "XLR Preamp")
-    (date "2023-05-01")
-    (rev "1.0")
+    (date "2023-05-03")
+    (rev "1.1")
     (company "Besmer Labs")
   )
 
@@ -964,7 +964,7 @@
     (property "Reference" "R4" (id 0) (at 127.254 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2k2" (id 1) (at 127.254 90.17 0)
+    (property "Value" "10k" (id 1) (at 127.254 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 123.952 88.646 90)
@@ -1396,7 +1396,7 @@
     (property "Reference" "R3" (id 0) (at 127.254 77.724 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2k2" (id 1) (at 127.254 80.264 0)
+    (property "Value" "10k" (id 1) (at 127.254 80.264 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 123.952 78.74 90)
@@ -1590,10 +1590,10 @@
       (reference "R2") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/d9e1c057-b9b0-4660-8426-ad97b16c6bbc"
-      (reference "R3") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/56f0c233-453e-449d-9554-cc38d9f909d8"
-      (reference "R4") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/c063a6c4-b4c8-4a64-88fd-f1066955e6e9"
       (reference "R5") (unit 1) (value "10") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
